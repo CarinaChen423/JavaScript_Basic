@@ -22,3 +22,24 @@ let myName; //undefined
 let userImage = null;
 
 //Dynamic language & Static language
+//JavaScript is dynamic language
+
+//Array
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 'green';
+console.log(selectedColors.length);
+
+//Functions: Performing a task
+function greet(call){
+    console.log('Hello ' + call);
+}
+
+greet('Amy');
+greet('Jan');
+
+//Calculating a value
+function square(number){
+    return number * number;
+}
+
+console.log(square(2));
